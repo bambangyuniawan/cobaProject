@@ -6,20 +6,31 @@
 	<style type="text/css">
 		body{
 			margin: 50px;
+			background-color: grey;
+		}
+		.timer{
+			color: red;
+		}
+		button{
+			background-color: lightgreen;
+		}
+		.log{
+			background-color: red;
 		}
 	</style>
 </head>
 <body>
-	<h2>Sisa Waktu :</h2>
-	<h3>0</h3>
+	<h2 >Sisa Waktu :</h2>
+	<h3 class="timer">0</h3>
 	<p><b>1. Apa yang dimaksud dengan JavaScript ?</b></p>
 	<form id="form">
-		<input type="radio" name="jawab" value="a">a. Anu pak <br>
-		<input type="radio" name="jawab" value="b">b. Adalah sebuah Anu <br>
-		<input type="radio" name="jawab" value="c">c. Tidak tahu <br>
-		<input type="radio" name="jawab" value="d">d. Tidak tempe <br><br>
+		<input type="radio" name="jawab" value="a">a. Javascript adalah sebuah bahasa pemrograman Web <br>
+		<input type="radio" name="jawab" value="b">b. Javascript adalah sebuah merek dagang kopi <br>
+		<input type="radio" name="jawab" value="c">c. Javascript adalah sebuah framework HTML <br>
+		<input type="radio" name="jawab" value="d">d. Javascript adalah sebuah tulisan yang berbahasa jawa <br><br>
 	</form>
-	<button>selesai</button>
+	<button>Selesai</button>
+	<button class="log">Logout</button>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
